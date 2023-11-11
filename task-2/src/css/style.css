@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    position: relative;
+    display: flex;
+    margin: 15px auto;
+    align-items:center; 
+    flex-direction: column;
+    width: 1440px;
+    height:895px ;
+    background-image: url('../img/zoltan-tasi-HTpAIzZRHvw-unsplash\ 1.png');
+}
+
+header{
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 31px;
+}
+
+.search-section {
+    display: flex;
+    margin-right: 138px;
+}
+
+.search-section > *:not(:first-child):not(:last-child){
+    margin-right: 39px;
+}
+
+.search-section > *:first-child{
+    margin-right: 18px;
+}
+
+
+
+.search-section__navbar{
+    margin-left: 138px;
+}
+input{
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    
+}
+
+input::placeholder{
+    color:white;
+}
+
+.center-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center-text__title{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 240px;
+    font-weight: 1000;
+    font-size: 6rem;
+    -webkit-text-stroke: 1px black;
+}
+
+.center-text__text{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    font-weight:100;
+    font-size: 3rem;
+}
+
+.center-text__button{
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px 18px 18px 18px;
+    background: transparent;
+    border:1px solid white;
+    color:white;
+}
+
+.center-text__arrow{
+    align-items: center;
+    justify-content: center;
+    padding-left: 27px;
+    padding-right: 20px;
+    width: calc(47px + 38px);
+}
+
+.contakt-info{
+    position: absolute;
+    color:white;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    gap:19px;
+    left:1027px;
+    top:778px;
+}
